@@ -1,0 +1,35 @@
+.accountAdminUser {
+    background-color: black;
+    color: white;
+    opacity: 0.95;
+}
+
+.nameUserandLogout {
+    display: inline-block;
+    float: right;
+    margin: 0 8px 0 0;
+}
+
+.welcome_text {
+    display: inline-block;
+    margin: 6px 10px 0 0;
+    color: white;
+    font-size: 16pt;
+    font-family: 'Agency FB';
+}
+
+.btnDelete {
+    position: inherit;
+    color: lightcoral;
+    margin: 4px 0 0 0;
+}
+
+.btndelete:hover { border-color: lightcoral; }
+
+.btnEdit {
+    position: inherit;
+    color: lightseagreen;
+    margin: 4px 0 0 5px;
+}
+
+.btnEdit:hover { border-color: lightseagreen; }

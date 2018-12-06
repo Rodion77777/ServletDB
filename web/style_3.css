@@ -1,0 +1,198 @@
+/*Левое фиксированное меню сортировки*/
+.Left_Menu {
+    width: 52px;
+    height: 308px;
+    border-radius: 5px;
+    margin-left: 5px;
+    color: White;
+    font-family: 'Agency FB';
+    margin-top: 200px;
+    background-color: rgba(210, 180, 140, 0.7);
+    position: fixed;
+}
+
+/*Кнопки левого фиксированного меню сортировки*/
+.Butt_Left_Menu {
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(to left, #363636, Black);
+    color: White;
+    border-radius: 5px;
+    font-size: 15pt;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.ButtMenu {
+    text-decoration: none;
+}
+
+.Butt_Left_Menu:active {
+    background-color: Black;
+    background: linear-gradient(to left, Black, Black);
+}
+
+/*div control Position Content внутри которого все элементы сайта (основные)*/
+.controlPosCont {
+    margin-top: 0; /*body = 8px*/
+    margin-left: 130px;
+    margin-right: auto;
+    padding: 0;
+}
+
+/*Верхняя часть сайта*/
+.div1 {
+    width: 1200px;
+    height: 120px;
+    background-color: rgba(210, 180, 140, 0.5);
+    border: 1px #D2B48C solid;
+    margin-top: 10px;
+}
+
+.div1A {
+    width: 400px;
+    height: 70px;
+    border: 0px Black solid;
+    margin-top: 2px;
+    margin-left: 20px;
+    padding-top: 1px;
+    padding-left: 12px;
+    padding-right: 1px;
+    color: White;
+    font-size: 70px;
+    font-family: 'Agency FB';
+    font-weight: bold;
+    text-align: center;
+    -webkit-transform: scale(1.4, 1.5);
+}
+
+.Slogan {
+    font-size: 10pt;
+    font-weight: 100;
+    margin-left: 250px;
+    margin-top: 15px;
+    color: White;
+    font-style: Italic;
+}
+
+.div1A1 {
+    color: White;
+}
+
+.div1B {
+    width: 688px;
+    height: 90px;
+    border: 0px Black solid;
+    margin-top: 10px;
+    margin-left: 62px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.Imgdiv1B {
+    width: 665px;
+    height: 80px;
+}
+
+.Menu {
+    width: 1192px;
+    max-height: 53px;
+    background-color: Black;
+    border: 1px Black solid;
+    opacity: 1;
+    margin: 2px 0 0 0;
+    padding: 3px 0 3px 8px;
+}
+
+.button_menu {
+    display: inline-block;
+    width: 70px;
+    height: 39px;
+    background: linear-gradient(to bottom, #363636, rgba(0, 0, 0, 0.1));
+    border: 1px #363636 Solid;
+    border-radius: 10px 0px 10px 0px;
+    color: White;
+    font-size: 16pt;
+    text-align: center;
+    font-family: 'Agency FB';
+}
+
+.button_menu:hover {
+    color: #D2B48C;
+    border: 1px rgba(210, 180, 140, 0.5) solid;
+}
+
+.button_menu:active {
+    color: #D2B48C;
+    border: 1px rgba(210, 180, 140, 0.5) solid;
+    background: linear-gradient(to bottom, Black, rgba(0, 0, 0, 0.1));
+}
+
+.button_logout {
+    display: inline-block;
+    float: right;
+    margin: 4px 0 0 0;
+}
+
+.menu_button_enter {
+    cursor: pointer;
+    float: right;
+    width: 70px;
+    height: 30px;
+    margin-left: 4px;
+    background: linear-gradient(to bottom, #363636, rgba(0, 0, 0, 0.1));
+    border: 1px #363636 Solid;
+    color: lightskyblue;
+    font-family: "Agency FB";
+    text-align: center;
+    font-size: 15pt;
+    padding-top: 2px;
+}
+
+.menu_button_enter:hover { border: 1px lightskyblue solid; }
+
+.menu_button_enter:active { background: linear-gradient(to bottom, Black, rgba(0, 0, 0, 0.1)); }
+
+.enterMail {
+    height: 30px;
+    width: 220px;
+    border: 1px #363636 Solid;
+    font-family: 'Verdana';
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.enter2 { margin: 1px; }
+
+.enterMail:invalid { border: 1px red solid; }
+
+.href {
+    text-decoration: none;
+    border: none;
+}
+
+.href:active {
+    border: none;
+}
+
+.divAlbum {
+    width: 1184px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px rgba(0, 0, 0, 0) solid;
+    margin: 2px 0 0 0;
+    padding: 8px;
+}
+
+.ImgAlbum {
+    width: 1184px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.Sponsors {
+    width: 1200px;
+    height: 265px;
+    border: 1px #363636 solid;
+    background: linear-gradient(to bottom, #363636, Black);
+    margin: 2px 0 0 0;
+}
